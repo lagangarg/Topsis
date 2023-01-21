@@ -1,10 +1,13 @@
 from distutils.core import setup
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 setup(
   name = 'Topsis-Lagan-102003318',         # How you named your package folder (MyLib)
   packages = ['Topsis-Lagan-102003318'],   # Chose the same as "name"
   version = '1.0.4',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A package -> Calculates Topsis Score and Rank them accordingly',   # Give a short description about your library
+  long_description=long_description,
   author = 'Lagan Garg',                   # Type in your name
   author_email = 'lgarg_be20@thapar.edu',      # Type in your E-Mail
   url = 'https://github.com/lagangarg/Topsis-Lagan-102003318',   # Provide either the link to your github or to your website
