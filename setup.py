@@ -1,13 +1,15 @@
 from distutils.core import setup
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+def readme():
+    with open('README.md') as f:
+        README = f.read()
+    return README
 setup(
   name = 'Topsis-Lagan-102003318',         # How you named your package folder (MyLib)
   packages = ['Topsis-Lagan-102003318'],   # Chose the same as "name"
   version = '1.0.5',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'This is a python package used to implement TOPSIS(Technique of Order Preference Similarity to the Ideal Solution) for MCDA(Multiple criteria decision analysis)',   # Give a short description about your library
-  long_description=long_description,
+  long_description=readme(),
   author = 'Lagan Garg',                   # Type in your name
   author_email = 'lgarg_be20@thapar.edu',      # Type in your E-Mail
   url = 'https://github.com/lagangarg/Topsis-Lagan-102003318',   # Provide either the link to your github or to your website
