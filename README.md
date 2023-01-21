@@ -1,6 +1,6 @@
 ## Topsis
 
-# TOPSIS
+# Topsis
 
 Submitted By: **Lagan Garg - 102003318**.
 
