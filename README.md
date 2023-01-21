@@ -6,7 +6,7 @@ Submitted By: **Lagan Garg - 102003318**.
 
 Type: **Package**.
 
-Title: **TOPSIS method for multiple-criteria decision making (MCDM)**.
+Title: **This is a python package used to implement TOPSIS(Technique of Order Preference Similarity to the Ideal Solution) for MCDA(Multiple criteria decision analysis)**.
 
 
 
