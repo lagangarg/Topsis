@@ -32,7 +32,7 @@ and greatest distance from the negative-ideal solution.
 ## How to install this package:
 
 ```
->> pip install Topsis-Lagan-102003318==1.0.4
+>> pip install Topsis-Lagan-102003318
 ```
 
 ### In Command Prompt
